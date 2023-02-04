@@ -43,7 +43,7 @@ public class LinkList {
 
         }
 
-        return root;
+        return thisNode;
 
     }
 
