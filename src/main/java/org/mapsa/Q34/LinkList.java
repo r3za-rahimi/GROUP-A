@@ -18,20 +18,10 @@ public class LinkList {
         this.root = root;
     }
 
-    void appendToTail(int d) {
-        /**
-         * این متد باعث سردرگمی میشد به همین خاطر از اد استفاده کردم :)
-         *
-         */
-    }
-
-
-    public void add(int value) {
-
+    void appendToTail(int value) {
         Node nextNode = new Node(root, value);
         root = nextNode;
         size++;
-
     }
 
 
