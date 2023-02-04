@@ -37,14 +37,10 @@ public class LinkList {
 
     public void remove(Node node, int value) {
 
-
         Node thisNode = node;
-//        Node thisNode = root;
         Node pervNode = null;
 
-
         while (thisNode != null) {
-
 
             if (thisNode.getData() == value) {
 
@@ -52,14 +48,11 @@ public class LinkList {
                 size--;
                 break;
             }
-
-
             pervNode = thisNode;
             thisNode = thisNode.getNext();
 
         }
 
-//        return root;
 
     }
 

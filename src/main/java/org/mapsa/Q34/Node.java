@@ -5,7 +5,6 @@ public class Node {
     private Node next;
     private int data;
 
-
     public Node() {
     }
 
@@ -13,9 +12,6 @@ public class Node {
         this.next = next;
         this.data = data;
     }
-
-
-
 
 
     public Node getNext() {
