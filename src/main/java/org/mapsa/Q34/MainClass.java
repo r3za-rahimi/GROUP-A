@@ -15,9 +15,9 @@ public class MainClass {
 
 
 //        linkList.setRoot(linkList.remove(linkList.getRoot(), 5));
-        linkList.remove(linkList.getRoot(), 6);
+        Node a = linkList.remove(linkList.getRoot(), 6);
 
 
-        System.out.println(linkList.toString());
+        System.out.println(a);
     }
 }

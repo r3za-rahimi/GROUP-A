@@ -25,7 +25,7 @@ public class LinkList {
     }
 
 
-    public void remove(Node node, int value) {
+    public Node remove(Node node, int value) {
 
         Node thisNode = node;
         Node pervNode = null;
@@ -43,6 +43,7 @@ public class LinkList {
 
         }
 
+        return root;
 
     }
 
