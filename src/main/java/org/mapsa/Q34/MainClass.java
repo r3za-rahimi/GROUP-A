@@ -6,10 +6,10 @@ public class MainClass {
 
         LinkList linkList = new LinkList();
 
-        linkList.add(5);
-        linkList.add(6);
-        linkList.add(7);
-        linkList.add(8);
+        linkList.appendToTail(5);
+        linkList.appendToTail(6);
+        linkList.appendToTail(7);
+        linkList.appendToTail(8);
 
         System.out.println(linkList.toString());
 
