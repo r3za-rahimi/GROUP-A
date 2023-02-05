@@ -1,12 +1,14 @@
 package org.mapsa;
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.println(Mapsa.unique("abcdefghf")); //false
-        System.out.println(Mapsa.unique("abcdefgh")); //true
-        System.out.println(Mapsa.timeArrayList());
-        System.out.println(Mapsa.timeHashSet());
-        System.out.println(Mapsa.timeLinkedList());
-
-    }
+    try {
+            ProductService productService = new ProductService(99) ;
+        } catch (InvalidWeightException e) {
+            System.out.println("Exception occured: " + e);
+        }
+    try {
+            ProductService p1 = new ProductService(100);
+        } catch (InvalidWeightException e){
+            System.out.println("Exception occured: " + e);
+        }
 }
